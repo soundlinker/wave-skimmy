@@ -1,0 +1,13 @@
+<extension name="Skimmy" description="Converts text emoticons into images." thumbnailUrl="http://wave-projects.googlecode.com/hg/robots/wave-skimmy/public/thumbnail.png">
+  <author name="Daniel Faust"/>
+  <menuHook location="newwavemenu" text="New wave with Skimmy" iconUrl="http://wave-projects.googlecode.com/hg/robots/wave-skimmy/public/emoticons/static/emoticon-0100-smile.png">
+    <createNewWave>
+      <participant id="wave-skimmy@appspot.com" />
+    </createNewWave>
+  </menuHook>
+  <menuHook location="toolbar" text="Add Skimmy to this wavelet" iconUrl="http://wave-projects.googlecode.com/hg/robots/wave-skimmy/public/toolbar-smile.png"> 
+    <addParticipants>
+      <participant id="wave-skimmy@appspot.com" />
+    </addParticipants>
+  </menuHook> 
+</extension>

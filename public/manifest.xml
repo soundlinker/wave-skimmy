@@ -1,0 +1,12 @@
+<extension
+  name="Skimmy"
+  description="Converts text emoticons to images."
+  thumbnailUrl="http://wave-skimmy.appspot.com/public/thumbnail.png">
+  <author name="Daniel Faust"/>
+  <menuHook
+    location="newwavemenu"
+    text="Changes text emoticons to images." 
+    iconUrl="http://wave-skimmy.appspot.com/public/half.png">
+    <participant id="wave-skimmy@appspot.com"/>
+  </menuHook>
+</extension>
