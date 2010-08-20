@@ -5,8 +5,8 @@
 
 application: wave-skimmy
 version: 10
-runtime:      python
-api_version:  1
+runtime: python
+api_version: 1
 
 ##################################################################################
 ############ H A N D L E R S ############
